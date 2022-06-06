@@ -1,0 +1,22 @@
+# [package]
+# name="consumingCrates"
+# version="0.1.0"
+# author=["Bugrahan Kara <bugrakara@x.com.tr"]
+
+# [dependencies]
+# rand= {path="C:/Users/bugrakara/Desktop/Rust_Denemeler/_0_General/Modules/rand", version= "0.8.5"}
+
+[package]
+name = "_58_59_60_ConsumingCrates_BuildingModulesCrates_Testing"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand= {path="C:/Users/bugrakara/Desktop/Rust_Denemeler/_0_General/Modules/rand", version= "0.8.5"}
+libc={path="C:/Users/bugrakara/Desktop/Rust_Denemeler/_0_General/Modules/libc"}
+
+[[bin]]
+name = "_58_59_60_ConsumingCrates_BuildingModulesCrates_Testing"
+path = "main.rs"

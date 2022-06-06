@@ -1,0 +1,12 @@
+[package]
+name = "_49_50_51_52_Ownership_Borrowing_Lifetime"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "_49_50_51_52_Ownership_Borrowing_Lifetime"
+path = "main.rs"

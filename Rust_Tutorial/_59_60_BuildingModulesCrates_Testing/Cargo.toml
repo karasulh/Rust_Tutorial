@@ -1,0 +1,13 @@
+[package]
+name = "_59_60_BuildingModulesCrates_Testing"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+phrases={path="./Phrases"}
+
+[[bin]]
+name = "_59_60_BuildingModulesCrates_Testing"
+path = "main.rs"

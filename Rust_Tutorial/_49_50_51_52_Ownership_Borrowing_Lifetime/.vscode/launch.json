@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '_49_50_51_52_Ownership_Borrowing_Lifetime'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=_49_50_51_52_Ownership_Borrowing_Lifetime",
+                    "--package=_49_50_51_52_Ownership_Borrowing_Lifetime"
+                ],
+                "filter": {
+                    "name": "_49_50_51_52_Ownership_Borrowing_Lifetime",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '_49_50_51_52_Ownership_Borrowing_Lifetime'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=_49_50_51_52_Ownership_Borrowing_Lifetime",
+                    "--package=_49_50_51_52_Ownership_Borrowing_Lifetime"
+                ],
+                "filter": {
+                    "name": "_49_50_51_52_Ownership_Borrowing_Lifetime",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '_18_CombinationLock'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=_18_CombinationLock",
+                    "--package=_18_CombinationLock"
+                ],
+                "filter": {
+                    "name": "_18_CombinationLock",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '_18_CombinationLock'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=_18_CombinationLock",
+                    "--package=_18_CombinationLock"
+                ],
+                "filter": {
+                    "name": "_18_CombinationLock",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

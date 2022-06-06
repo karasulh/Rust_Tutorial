@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '_14_15_16_17_18_ControlFlow'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=_14_15_16_17_18_ControlFlow",
+                    "--package=_14_15_16_17_18_ControlFlow"
+                ],
+                "filter": {
+                    "name": "_14_15_16_17_18_ControlFlow",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '_14_15_16_17_18_ControlFlow'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=_14_15_16_17_18_ControlFlow",
+                    "--package=_14_15_16_17_18_ControlFlow"
+                ],
+                "filter": {
+                    "name": "_14_15_16_17_18_ControlFlow",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

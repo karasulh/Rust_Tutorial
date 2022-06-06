@@ -1,0 +1,12 @@
+[package]
+name = "_14_15_16_17_18_ControlFlow"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "_14_15_16_17_18_ControlFlow"
+path = "main.rs"

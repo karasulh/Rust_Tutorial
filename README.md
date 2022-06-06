@@ -1,0 +1,1 @@
+This repo contains the Rust codes mainly from the Udemy Course by Dmitri Nesteruk. I wrote these codes while studying this course.

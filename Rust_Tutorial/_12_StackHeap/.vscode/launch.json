@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '_12_StackHeap'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=_12_StackHeap",
+                    "--package=_12_StackHeap"
+                ],
+                "filter": {
+                    "name": "_12_StackHeap",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '_12_StackHeap'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=_12_StackHeap",
+                    "--package=_12_StackHeap"
+                ],
+                "filter": {
+                    "name": "_12_StackHeap",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
